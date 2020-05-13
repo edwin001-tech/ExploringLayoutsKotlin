@@ -24,16 +24,23 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="375dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        app:srcCompat="@drawable/ic_launcher_background" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
         android:onClick="loadMenuLayout"
         android:text="Back To Menu"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.325" />
 </androidx.constraintlayout.widget.ConstraintLayout>

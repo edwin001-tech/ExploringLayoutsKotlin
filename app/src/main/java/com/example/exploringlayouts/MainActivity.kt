@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loadTableLayout(view: View) {
-        //  setContentView(R.layout.my_table_layout)
+          setContentView(R.layout.my_table_layout)
     }
     fun loadMenuLayout(v: View) {
         setContentView(R.layout.main_menu)
