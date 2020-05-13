@@ -8,14 +8,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_layout)
-        fun loadConstraintLayout(v: View) {
-            setContentView(R.layout.activity_main)
-        }
+        setContentView(R.layout.main_menu)
 
-        fun loadTableLayout(v: View) {
-          //  setContentView(R.layout.my_table_layout)
-        }
+    }
 
+    fun loadConstraintLayout(view: View) {
+        setContentView(R.layout.activity_main)
+    }
+
+    fun loadTableLayout(view: View) {
+        //  setContentView(R.layout.my_table_layout)
     }
 }

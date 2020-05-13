@@ -27,7 +27,7 @@
         android:paddingTop="15sp"
         android:paddingRight="15sp"
         android:paddingBottom="15sp"
-        android:text="Select a layout type to view an example. The onClick attribute of each button will call a function which executes setContentView to load the new layout" />
+        android:text="Select a layout " />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,6 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:onClick="loadConstraintLayout"
             android:text="LOAD" />
     </LinearLayout>
 
@@ -70,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
+            android:onClick="loadTableLayout"
             android:text="LOAD" />
     </LinearLayout>
 
